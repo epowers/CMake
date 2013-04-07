@@ -303,7 +303,7 @@ if(NOT DEFINED CMAKE_FIND_APPBUNDLE)
   set(CMAKE_FIND_APPBUNDLE FIRST)
 endif()
 # set up the default search directories for application bundles
-set(_apps_paths)
+set(_apps_paths "")
 foreach(_path
   "~/Applications"
   "/Applications"
